@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "poppins", sans-serif;
+}
+
+/* COMMON */
+.content {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* HEADER*/
+.header {
+  background: #e6f0ff;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  font-weight: 500;
+  line-height: normal;
+  color: #4f5361;
+}
+.navbar .action {
+  margin-left: auto;
+}

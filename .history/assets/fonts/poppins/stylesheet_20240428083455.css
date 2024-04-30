@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'DVN-Poppins';
+    src: url('poppins/DVNPoppins-Regular.woff2') format('woff2'),
+        url('poppins/DVNPoppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DVN-Poppins ExtBd';
+    src: url('poppins/DVNPoppins-ExtraBold.woff2') format('woff2'),
+        url('poppins/DVNPoppins-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

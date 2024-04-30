@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "poppins", sans-serif;
+}
+
+/* COMMON */
+.content {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  width: 98px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #0f1b4c;
+}
+
+/* HEADER*/
+.header {
+  background: #e6f0ff;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.navbar ul {
+  display: flex;
+  margin-left: 50px;
+}
+
+.navbar ul li a {
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #4f5361;
+  padding: 8px 14px;
+}
+.navbar .action {
+  margin-left: auto;
+}
+
+.navbar .action-link {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #0f1b4c;
+}

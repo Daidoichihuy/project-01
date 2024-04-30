@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #0f1b4c;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "poppins", sans-serif;
+}
+
+/* COMMON */
+.content {
+  width: 1110px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 98px;
+  padding: 18px 16px;
+  border-radius: 8px;
+  background: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/* HEADER*/
+.header {
+  position: relative;
+  background: #e6f0ff;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-top: 38px;
+}
+
+.navbar ul {
+  display: flex;
+  margin-left: 50px;
+}
+
+.navbar ul li a {
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #4f5361;
+  padding: 8px 14px;
+}
+.navbar .action {
+  margin-left: auto;
+}
+
+.navbar .action-link {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.navbar .action-btn {
+  padding: 13px 16px;
+  margin-left: 18px;
+}
+
+/* HERO */
+.hero {
+  margin-top: 130px;
+}
+
+.hero .info {
+  width: 51%;
+}
+.hero .sub-title {
+  color: #687690;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.18px;
+}
+
+.hero .title {
+  color: #000336;
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 1.19;
+  margin-top: 8px;
+}
+
+.hero .des {
+  color: #5a6473;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 177.778%;
+}
+.hero-cta {
+  min-width: 170px;
+  margin-top: 40px;
+}
+
+.hero-img {
+  position: absolute;
+  right: calc((100vw - 1110px) / 2 - 100px);
+  bottom: 0;
+}
+/* =============CLIENT============= */
+.client {
+  margin-top: 79px;
+}
+
+.client .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client .row p {
+  color: #7d8589;
+  text-align: right;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  margin-top: 23px;
+}
+.client .imgs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+/* ==========GUIDE======================= */
+.guide {
+  margin-top: 176px;
+}
+.guide .sub-title {
+  text-align: center;
+  color: #000339;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.guide .sub-title::before {
+  content: "";
+  display: inline-block;
+  width: 41px;
+  height: 4px;
+}
+
+.guide .desc {
+  text-align: center;
+  color: #5a6473;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+}
