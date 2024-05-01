@@ -47,14 +47,10 @@ a {
 }
 /* FIXED-HEADER */
 .fixed-header {
-    padding-top: 26px;
     background: #e6f0ff;
-    position: sticky;
-    top: -26px;
-    z-index: 1;
 }
-/* HERO*/
-.hero-wrap {
+/* HEADER*/
+.header {
     position: relative;
     background: #e6f0ff;
     height: 100vh;
@@ -63,8 +59,8 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    /* padding-top: 38px; */
-    padding: 12px 0;
+    padding-top: 38px;
+    background: #063183;
 }
 
 .navbar ul {
@@ -96,7 +92,7 @@ a {
 
 /* HERO */
 .hero {
-    padding-top: 130px;
+    margin-top: 130px;
 }
 
 .hero .info {

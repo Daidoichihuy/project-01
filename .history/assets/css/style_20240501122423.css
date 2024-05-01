@@ -53,8 +53,8 @@ a {
     top: -26px;
     z-index: 1;
 }
-/* HERO*/
-.hero-wrap {
+/* HEADER*/
+.header {
     position: relative;
     background: #e6f0ff;
     height: 100vh;
